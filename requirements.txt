@@ -1,0 +1,10 @@
+chromadb
+sentence-transformers
+langchain-text-splitters
+PyMuPDF
+openai
+python-dotenv
+tqdm
+torch
+transformers
+tf-keras
