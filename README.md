@@ -213,7 +213,7 @@ During development, semantic retrieval alone proved insufficient for precise leg
 
 To improve retrieval quality, a cross-encoder reranking stage (BGE Reranker) was evaluated to reorder the retrieved chunks. While it improved semantic ranking, certain legally relevant clauses still received lower relevance scores due to the complexity and verbosity of legal language, leading to missed extractions. 
 
-To address this, the pipeline architecture was adjusted to include the LLM-based chunk selection stage. Rather than relying solely on embedding similarity or reranking scores, the LLM evaluates the retrieved candidate chunks and selects only those that genuinely contain the requested legal clause before extraction. This significantly improved extraction accuracy while reducing false positives and ensuring that the final output preserves the original contractual wording. # 
+To address this, the pipeline architecture was adjusted to include the LLM-based chunk selection stage. Rather than relying solely on embedding similarity or reranking scores, the LLM evaluates the retrieved candidate chunks and selects only those that genuinely contain the requested legal clause before extraction. This significantly improved extraction accuracy while reducing false positives and ensuring that the final output preserves the original contractual wording. 
 
 # Author 
 Raj Jangam
